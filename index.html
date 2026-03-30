@@ -1,0 +1,558 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Shubham Kumar | Backend Architecture & Systems</title>
+    <meta name="description" content="Portfolio of Shubham Kumar, Backend Systems Engineer specializing in high-throughput, fault-tolerant microservices, Node.js, and Go.">
+    <meta name="author" content="Shubham Kumar">
+    <meta name="theme-color" content="#030303">
+    
+    <meta property="og:title" content="Shubham Kumar | Backend Systems Engineer">
+    <meta property="og:description" content="Architecting backend structures that scale. 100K+ daily requests, zero downtime.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/skshubham1437">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shubham Kumar | Backend Architecture">
+    <meta name="twitter:description" content="Architecting backend structures that scale. 100K+ daily requests, zero downtime.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+    <div class="noise"></div>
+    <div class="cursor" id="cursor"><span class="cursor-text">View</span></div>
+    
+    <div class="mobile-fallback-bg"></div>
+    <canvas id="webgl-canvas" aria-hidden="true"></canvas>
+
+    <div class="loader" id="loader" aria-hidden="true">
+        <div id="scramble-text">
+            > initializing kernel...<br>
+            > mounting volumes...<br>
+            > establishing connection...
+        </div>
+        <div class="loader-percent" id="loader-percent">00</div>
+    </div>
+
+    <div class="main-wrap" id="smooth-wrapper">
+        <div id="smooth-content">
+            
+            <nav id="nav">
+                <button class="nav-logo hoverable" tabindex="0" onclick="window.scrollTo(0,0)" aria-label="Scroll to top">SK.</button>
+                <div class="nav-right">
+                    <a href="assets/docs/Shubham Kumar - Backend Developer Resume.pdf" target="_blank" class="resume-btn hoverable" tabindex="0" aria-label="Download Resume">[ GET CV ]</a>
+                    <div class="nav-status"><div class="dot"></div> Server Online</div>
+                </div>
+            </nav>
+
+            <header>
+                <div class="h-kicker" id="h-kicker">SHUBHAM KUMAR //</div>
+                
+                <h1 class="h-title" id="h-title" aria-label="Node Go Backend Engineer">
+                    NODE &middot; GO <br>
+                    <span class="fill">BACKEND</span> <br>
+                    <i>Engineer</i>
+                </h1>
+                <p class="h-sub" id="h-sub">
+                    I design the monolithic backend structures that dictate how digital platforms scale. Building APIs that process 100K+ daily requests without a single point of failure.
+                </p>
+                <div class="hero-actions" id="hero-actions">
+                    <a href="assets/docs/Shubham Kumar - Backend Developer Resume.pdf" target="_blank" class="cta-btn cta-primary hoverable" aria-label="Download Resume">Download Resume</a>
+                    <a href="#projects" class="cta-btn cta-secondary hoverable" data-scroll-target="#projects" aria-label="View Projects">View Projects</a>
+                </div>
+            </header>
+
+            <section class="specs">
+                <div class="spec-large reveal-item">
+                    Transforming architectural decisions into highly resilient, low-latency microservices.
+                </div>
+                <div class="spec-grid">
+                    <div class="sg-item reveal-item">
+                        <p>45% Throughput Boost</p>
+                        <h4><span class="counter" data-target="45" data-suffix="%">0</span></h4>
+                    </div>
+                    <div class="sg-item reveal-item">
+                        <p>15K Concurrent Users</p>
+                        <h4><span class="counter" data-target="15" data-suffix="K">0</span></h4>
+                    </div>
+                    <div class="sg-item reveal-item">
+                        <p>400ms Avg Response</p>
+                        <h4><span class="counter" data-target="400" data-suffix="ms">0</span></h4>
+                    </div>
+                    <div class="sg-item reveal-item">
+                        <p>99.9% Uptime</p>
+                        <h4><span class="counter" data-target="99.9" data-suffix="%">0</span></h4>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="about-grid">
+                    <div class="about-left">
+                        <h2 class="a-title reveal-item">BEHIND <br><i>the</i> <br>CODE</h2>
+                        <div class="portrait-wrapper reveal-item">
+                            <!-- <img src="./assets/images/me.jpg" alt="Shubham Kumar" class="author-portrait"> -->
+                            <div class="portrait-scanline"></div>
+                        </div>
+                    </div>
+                    <div class="about-right">
+                        <p class="a-text reveal-item">
+                            I am a Backend Software Engineer based in Patna, equipped with a <strong>Master's in Computer Applications</strong> from Chandigarh University. For the past four years, I've specialized in designing high-throughput, fault-tolerant microservices utilizing Node.js and Go.
+                        </p>
+                        <blockquote class="testimonial reveal-item">
+                            "Shubham doesn't just write endpoints; he anticipates how systems fail under load. Hopping on a call with him to pinpoint an issue is a masterclass in debugging."
+                            <span>â€” Avneesh & Vicky, Engineering</span>
+                        </blockquote>
+                        <p class="a-text reveal-item">
+                            My engineering philosophy is rooted in eliminating bottlenecks. Recently, I've been expanding my infrastructure capabilities by integrating <strong>multiple LLM providers via API keys</strong> directly into Node environments. When I step away from the terminal, my focus shifts to exploring human performance through nutrition and food science.
+                        </p>
+                        <div class="about-socials reveal-item" aria-label="Social links">
+                            <a href="https://github.com/skshubham1437" target="_blank" rel="noopener noreferrer" class="icon-button hoverable" aria-label="Visit GitHub profile">
+                                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.5 1.4-4.5-2.5-6-3m12 6v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6.5a5 5 0 0 0-1.3-3.5 4.6 4.6 0 0 0-.1-3.4s-1.1-.3-3.6 1.3a12.4 12.4 0 0 0-6.2 0C6.3 2.8 5.2 3.1 5.2 3.1a4.6 4.6 0 0 0-.1 3.4A5 5 0 0 0 3.8 10c0 5.1 2.7 6.2 5.5 6.5-.6.6-.6 1.2-.6 2V22"/></svg>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/shubham-kumar-17b552198/" target="_blank" rel="noopener noreferrer" class="icon-button hoverable" aria-label="Visit LinkedIn profile">
+                                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><path d="M2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                        <div class="a-stats reveal-item">
+                            <div class="a-stat"><span>Education</span>MCA, Chandigarh Univ.</div>
+                            <div class="a-stat"><span>Focus</span>Microservices / Go / Node</div>
+                            <div class="a-stat"><span>Interests</span>LLM Integrations, Nutrition</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="work" id="projects">
+                <div class="work-head">
+                    <h2 class="section-title">Production Deployments</h2>
+                </div>
+                <div class="list-wrap" role="list">
+                    
+                    <div class="list-item-wrapper" role="listitem">
+                        <div class="list-item project-item" tabindex="0" aria-expanded="false">
+                            <div class="li-name">DeepLinx</div>
+                            <div class="li-meta">
+                                <div class="li-meta-copy">
+                                    <div>High-Freq Routing<br>Node.js / AWS</div>
+                                    <div class="li-badges">
+                                        <span class="li-badge">Platform</span>
+                                        <span class="li-badge">Live</span>
+                                    </div>
+                                </div>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" class="ext-arrow"><path d="M6 9l6 6 6-6"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-drawer">
+                            <div class="drawer-inner">
+                                <div class="project-pill-group">
+                                    <div class="project-pill-row">
+                                        <span class="project-pill">Node.js</span>
+                                        <span class="project-pill">AWS</span>
+                                        <span class="project-pill">Redis</span>
+                                        <span class="project-pill">Route 53</span>
+                                    </div>
+                                    <div class="project-pill-row">
+                                        <span class="project-pill metric">Less than 18ms latency</span>
+                                        <span class="project-pill metric">99.97% uptime</span>
+                                    </div>
+                                </div>
+                                <div class="project-actions">
+                                        <a href="https://deeplinx.tech" target="_blank" rel="noopener noreferrer" class="project-link-btn hoverable" aria-label="Open DeepLinx live site">Live Site</a>
+                                    </div>
+                                <div class="drawer-grid">
+                                    <div>
+                                        <h5>The Challenge</h5>
+                                        <p>Smart link routing infrastructure that detects device, OS, and app install state to deliver users to precise destinations under heavy load.</p>
+                                    </div>
+                                    <div>
+                                        <h5>The Architecture</h5>
+                                        <p class="ascii-diagram">Client -> Route 53 -> Load Balancer -> Node.js Microservice -> Redis Cache</p>
+                                    </div>
+                                    <div>
+                                        <h5>The Impact</h5>
+                                        <p>Engineered an enterprise-scale solution capable of handling millions of requests with latency strictly under 18ms and 99.97% uptime.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-item-wrapper" role="listitem">
+                        <div class="list-item project-item" tabindex="0" aria-expanded="false">
+                            <div class="li-name">Influencer Marketing SaaS</div>
+                            <div class="li-meta">
+                                <div class="li-meta-copy">
+                                    <div>Campaign Ops Backend<br>Firebase / BullMQ</div>
+                                    <div class="li-badges">
+                                        <span class="li-badge">SaaS</span>
+                                        <span class="li-badge">Live</span>
+                                    </div>
+                                </div>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" class="ext-arrow"><path d="M6 9l6 6 6-6"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-drawer">
+                            <div class="drawer-inner">
+                                <div class="project-pill-group">
+                                    <div class="project-pill-row">
+                                        <span class="project-pill">Node.js</span>
+                                        <span class="project-pill">Microservices</span>
+                                        <span class="project-pill">BullMQ</span>
+                                        <span class="project-pill">Firebase Analytics</span>
+                                    </div>
+                                    <div class="project-pill-row">
+                                        <span class="project-pill metric">Full backend refactor</span>
+                                        <span class="project-pill metric">Multiple section APIs</span>
+                                    </div>
+                                </div>
+                                <div class="drawer-grid">
+                                    <div>
+                                        <h5>The Scope</h5>
+                                        <p>Reworked an influencer marketing SaaS backend by fixing code-quality issues across the codebase, refactoring core services, implementing multiple section APIs, and moving heavy flows into async processing.</p>
+                                    </div>
+                                    <div>
+                                        <h5>Performance</h5>
+                                        <p>Improved maintainability and throughput by offloading selected workloads to BullMQ-based async processing while standardizing multiple section APIs across the platform.</p>
+                                    </div>
+                                    <div>
+                                        <h5>The Architecture</h5>
+                                        <p class="ascii-diagram">Client -> Node.js API -> BullMQ Workers -> Firebase Analytics -> Section Services</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-item-wrapper" role="listitem">
+                        <div class="list-item project-item" tabindex="0" aria-expanded="false">
+                            <div class="li-name">Govt Land Survey Platform</div>
+                            <div class="li-meta">
+                                <div class="li-meta-copy">
+                                    <div>Land Survey Ops<br>MySQL / 40M+ Rows</div>
+                                    <div class="li-badges">
+                                        <span class="li-badge">Government</span>
+                                        <span class="li-badge">Live</span>
+                                    </div>
+                                </div>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" class="ext-arrow"><path d="M6 9l6 6 6-6"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-drawer">
+                            <div class="drawer-inner">
+                                <div class="project-pill-group">
+                                    <div class="project-pill-row">
+                                        <span class="project-pill">Node.js</span>
+                                        <span class="project-pill">Express.js</span>
+                                        <span class="project-pill">MySQL</span>
+                                        <span class="project-pill">Redis</span>
+                                        <span class="project-pill">jQuery</span>
+                                        <span class="project-pill">EJS</span>
+                                    </div>
+                                    <div class="project-pill-row">
+                                        <span class="project-pill metric">15,000+ concurrent admins</span>
+                                        <span class="project-pill metric">70% faster queries</span>
+                                        <span class="project-pill metric">40M+ record database</span>
+                                    </div>
+                                </div>
+                                <div class="drawer-grid">
+                                    <div>
+                                        <h5>The Challenge</h5>
+                                        <p>Scalable admin platform supporting hierarchical role-based access across a large public-sector department while serving massive internal workloads.</p>
+                                    </div>
+                                    <div>
+                                        <h5>The Solution</h5>
+                                        <p class="ascii-diagram">Nginx -> Node.js/Express -> Query Optimizer -> Redis -> MySQL Cluster</p>
+                                    </div>
+                                    <div>
+                                        <h5>The Impact</h5>
+                                        <p>Optimized complex MySQL queries across a 40M+ record database, cutting data retrieval times by 70% while supporting 15,000+ concurrent administrators.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-item-wrapper" role="listitem">
+                        <div class="list-item project-item" tabindex="0" aria-expanded="false">
+                            <div class="li-name">Govt MSME Loan Platform</div>
+                            <div class="li-meta">
+                                <div class="li-meta-copy">
+                                    <div>MSME Loan Ops<br>Docker / Auth</div>
+                                    <div class="li-badges">
+                                        <span class="li-badge">Government</span>
+                                        <span class="li-badge">Live</span>
+                                    </div>
+                                </div>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" class="ext-arrow"><path d="M6 9l6 6 6-6"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-drawer">
+                            <div class="drawer-inner">
+                                <div class="project-pill-group">
+                                    <div class="project-pill-row">
+                                        <span class="project-pill">Node.js</span>
+                                        <span class="project-pill">Express.js</span>
+                                        <span class="project-pill">MySQL</span>
+                                        <span class="project-pill">Docker</span>
+                                    </div>
+                                    <div class="project-pill-row">
+                                        <span class="project-pill metric">25+ API endpoints</span>
+                                        <span class="project-pill metric">85% test coverage</span>
+                                        <span class="project-pill metric">60% faster deployments</span>
+                                    </div>
+                                </div>
+                                <div class="drawer-grid">
+                                    <div>
+                                        <h5>The Challenge</h5>
+                                        <p>Re-architected a legacy loan management backend for a flagship public-sector financing program with an emphasis on security, resilience, and delivery velocity.</p>
+                                    </div>
+                                    <div>
+                                        <h5>The Architecture</h5>
+                                        <p class="ascii-diagram">Client -> JWT Auth Gateway -> Node.js API -> MySQL Master/Slave DB</p>
+                                    </div>
+                                    <div>
+                                        <h5>The Impact</h5>
+                                        <p>Engineered 25+ RESTful API endpoints with 85% test coverage and standardized Dockerized delivery flows that cut deployment time by 60%.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-item-wrapper" role="listitem">
+                        <div class="list-item project-item" tabindex="0" aria-expanded="false">
+                            <div class="li-name">Flash Learn</div>
+                            <div class="li-meta">
+                                <div class="li-meta-copy">
+                                    <div>Personal Learning Agent<br>Node.js / TypeScript</div>
+                                    <div class="li-badges">
+                                        <span class="li-badge">Open Source</span>
+                                    </div>
+                                </div>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" class="ext-arrow"><path d="M6 9l6 6 6-6"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-drawer">
+                            <div class="drawer-inner">
+                                <div class="project-pill-group">
+                                    <div class="project-pill-row">
+                                        <span class="project-pill">Node.js</span>
+                                        <span class="project-pill">TypeScript</span>
+                                        <span class="project-pill">SQLite</span>
+                                        <span class="project-pill">Swagger</span>
+                                        <span class="project-pill">Jest</span>
+                                    </div>
+                                    <div class="project-pill-row">
+                                        <span class="project-pill metric">80% less manual note-taking</span>
+                                        <span class="project-pill metric">50% faster flashcard generation</span>
+                                    </div>
+                                    <div class="project-actions">
+                                        <a href="https://github.com/skshubham1437" target="_blank" rel="noopener noreferrer" class="project-link-btn hoverable" aria-label="Open GitHub profile for Flash Learn">GitHub</a>
+                                    </div>
+                                </div>
+                                <div class="drawer-grid">
+                                    <div>
+                                        <h5>The Concept</h5>
+                                        <p>AI learning agent that converts web content, YouTube videos, and PDFs into Markdown notes and Anki flashcards synced to Notion.</p>
+                                    </div>
+                                    <div>
+                                        <h5>The Workflow</h5>
+                                        <p class="ascii-diagram">Source URL -> Extractor -> LLM Pipeline -> Markdown Notes -> Anki and Notion Sync</p>
+                                    </div>
+                                    <div>
+                                        <h5>The Impact</h5>
+                                        <p>Automated the full study-material pipeline so learning inputs become reusable notes and spaced-repetition assets in a fraction of the manual time.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="skills">
+                <h2 class="section-title">Core Arsenal</h2>
+                <div class="skills-matrix" role="list">
+                    <div class="s-node hoverable" role="listitem" tabindex="0">Node.js</div>
+                    <div class="s-node hoverable" role="listitem" tabindex="0">TypeScript</div>
+                    <div class="s-node hoverable" role="listitem" tabindex="0">Golang</div>
+                    <div class="s-node hoverable" role="listitem" tabindex="0">PostgreSQL</div>
+                    <div class="s-node hoverable" role="listitem" tabindex="0">Redis</div>
+                    <div class="s-node hoverable" role="listitem" tabindex="0">Docker</div>
+                    <div class="s-node hoverable" role="listitem" tabindex="0">AWS</div>
+                    <div class="s-node hoverable" role="listitem" tabindex="0">Kafka</div>
+                </div>
+
+                <h2 class="section-title" style="margin-top: 10vw;">Technical Matrix</h2>
+                <div class="sd-grid">
+                    
+                    <div class="sd-row reveal-item">
+                        <div class="sd-cat">Languages</div>
+                        <div class="sd-items">
+                            <span class="skill-chip">JavaScript (Node.js)</span>
+                            <span class="skill-chip">TypeScript</span>
+                            <span class="skill-chip">Golang</span>
+                            <span class="skill-chip">SQL</span>
+                        </div>
+                    </div>
+                    
+                    <div class="sd-row reveal-item">
+                        <div class="sd-cat">Backend</div>
+                        <div class="sd-items">
+                            <span class="skill-chip">Express.js</span>
+                            <span class="skill-chip">NestJS</span>
+                            <span class="skill-chip">RESTful APIs</span>
+                            <span class="skill-chip">GraphQL</span>
+                        </div>
+                    </div>
+                    
+                    <div class="sd-row reveal-item">
+                        <div class="sd-cat">Databases</div>
+                        <div class="sd-items">
+                            <span class="skill-chip">PostgreSQL</span>
+                            <span class="skill-chip">MySQL</span>
+                            <span class="skill-chip">MongoDB</span>
+                            <span class="skill-chip">Redis</span>
+                            <span class="skill-chip">Query Optimization</span>
+                        </div>
+                    </div>
+                    
+                    <div class="sd-row reveal-item">
+                        <div class="sd-cat">Cloud &amp; DevOps</div>
+                        <div class="sd-items">
+                            <span class="skill-chip">AWS (EC2, S3, Lambda)</span>
+                            <span class="skill-chip">Docker</span>
+                            <span class="skill-chip">Nginx</span>
+                            <span class="skill-chip">CI/CD</span>
+                            <span class="skill-chip">GitHub Actions</span>
+                        </div>
+                    </div>
+                    
+                    <div class="sd-row reveal-item">
+                        <div class="sd-cat">Message Queues</div>
+                        <div class="sd-items">
+                            <span class="skill-chip">Kafka</span>
+                            <span class="skill-chip">RabbitMQ</span>
+                            <span class="skill-chip">BullMQ</span>
+                        </div>
+                    </div>
+                    
+                    <div class="sd-row reveal-item">
+                        <div class="sd-cat">Testing &amp; Quality</div>
+                        <div class="sd-items">
+                            <span class="skill-chip">Jest</span>
+                            <span class="skill-chip">TDD</span>
+                            <span class="skill-chip">SonarQube</span>
+                            <span class="skill-chip">ESLint</span>
+                        </div>
+                    </div>
+                    
+                    <div class="sd-row reveal-item">
+                        <div class="sd-cat">Security &amp; Auth</div>
+                        <div class="sd-items">
+                            <span class="skill-chip">OAuth 2.0</span>
+                            <span class="skill-chip">JWT</span>
+                            <span class="skill-chip">RBAC</span>
+                            <span class="skill-chip">Casbin</span>
+                            <span class="skill-chip">Passport.js</span>
+                            <span class="skill-chip">AES-256</span>
+                        </div>
+                    </div>
+                    
+                    <div class="sd-row reveal-item">
+                        <div class="sd-cat">Architecture</div>
+                        <div class="sd-items">
+                            <span class="skill-chip">System Design</span>
+                            <span class="skill-chip">Microservices</span>
+                            <span class="skill-chip">SOLID</span>
+                            <span class="skill-chip">DRY</span>
+                            <span class="skill-chip">Performance Optimization</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <footer id="contact">
+                <div class="f-top">
+                    <div class="f-status-badge" aria-label="Status: Accepting New Opportunities">
+                        <div class="dot"></div> Accepting New Opportunities
+                    </div>
+                </div>
+                
+                <div class="contact-stack">
+                    <form class="contact-form reveal-item" id="contact-form">
+                        <div class="contact-grid">
+                            <label class="contact-field">
+                                <span>Name</span>
+                                <input type="text" name="name" autocomplete="name" required>
+                            </label>
+                            <label class="contact-field">
+                                <span>Email</span>
+                                <input type="email" name="email" autocomplete="email" required>
+                            </label>
+                        </div>
+                        <label class="contact-field">
+                            <span>Message</span>
+                            <textarea name="message" required></textarea>
+                        </label>
+                        <button type="submit" class="contact-send hoverable">Send</button>
+                    </form>
+                    
+                    <a href="mailto:skshubham1437@gmail.com" class="f-mail hoverable" aria-label="Send email to skshubham1437@gmail.com">
+                        <span>SKSHUBHAM1437</span>
+                        <span style="font-size: 0.7em; margin-top: -2vw;"><i>@gmail.com</i></span>
+                    </a>
+                </div>
+                
+                <div class="f-links">
+                    <div>Patna, IN â€” <span id="live-time">00:00:00</span></div>
+                    <div class="footer-socials" aria-label="Footer social links">
+                        <a href="https://github.com/skshubham1437" target="_blank" rel="noopener noreferrer" class="icon-button hoverable" aria-label="Open GitHub profile">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.5 1.4-4.5-2.5-6-3m12 6v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6.5a5 5 0 0 0-1.3-3.5 4.6 4.6 0 0 0-.1-3.4s-1.1-.3-3.6 1.3a12.4 12.4 0 0 0-6.2 0C6.3 2.8 5.2 3.1 5.2 3.1a4.6 4.6 0 0 0-.1 3.4A5 5 0 0 0 3.8 10c0 5.1 2.7 6.2 5.5 6.5-.6.6-.6 1.2-.6 2V22"/></svg>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shubham-kumar-17b552198/" target="_blank" rel="noopener noreferrer" class="icon-button hoverable" aria-label="Open LinkedIn profile">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><path d="M2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                    <div class="footer-contact-links">
+                        <a href="mailto:skshubham1437@gmail.com" class="f-link hoverable">skshubham1437@gmail.com</a>
+                        <a href="tel:+916206845689" class="f-link hoverable">+91 6206845689</a>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+
+        <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
