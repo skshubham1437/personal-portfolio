@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Shubham Kumar favicon</title>
+  <rect width="64" height="64" rx="14" fill="#030303"/>
+  <text
+    x="11"
+    y="38"
+    fill="#F4F4F4"
+    font-family="'Syncopate', Arial, sans-serif"
+    font-size="22"
+    font-weight="700"
+    letter-spacing="1.2"
+  >
+    SK
+  </text>
+  <circle cx="51" cy="17" r="4" fill="#E8FF47"/>
+</svg>
